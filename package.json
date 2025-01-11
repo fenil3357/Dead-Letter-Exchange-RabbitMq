@@ -1,0 +1,21 @@
+{
+  "name": "dead-letter-exchange-rabbitmq",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate working of dead letter exchange in rabbitmq",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitmq",
+    "express",
+    "dead-letter-exchange",
+    "dlx"
+  ],
+  "author": "Fenil Rami",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.5"
+  }
+}
